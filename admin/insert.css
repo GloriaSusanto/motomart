@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 8px; /* Mengurangi padding */
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #40F8FF;
+    backdrop-filter: blur(20px); /* Efek blur untuk transparansi */
+    background-color: #0C356A/* Warna latar belakang dengan transparansi */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 14px; /* Mengurangi margin */
+    color: #279EFF;
+    font-family: "Kanit", sans-serif;
+    font-size: 14px; /* Mengurangi font-size */
+}
+
+form {
+    margin-top: 8px; /* Mengurangi margin */
+}
+
+input[type="text"],
+input[type="file"],
+textarea {
+    width: calc(100% - 16px);
+    padding: 6px; /* Mengurangi padding */
+    margin-top: 4px; /* Mengurangi margin */
+    margin-bottom: 10px; /* Mengurangi margin */
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Mengurangi border-radius */
+    box-sizing: border-box;
+    font-size: 12px; /* Mengurangi font-size */
+}
+
+label {
+    font-weight: bold;
+    font-size: 12px;
+    color: #279EFF;
+    font-family: "Kanit", sans-serif;
+}
+
+input[type="submit"] {
+    background-color: #60A9A6;
+    color: white;
+    padding: 8px 12px; /* Mengurangi padding */
+    margin: 4px 0; /* Mengurangi margin */
+    border: none;
+    border-radius: 6px; /* Mengurangi border-radius */
+    cursor: pointer;
+    width: 60%;
+    font-size: 14px; /* Mengurangi font-size */
+    transition: background-color 0.3s;
+    margin-left: 100px;
+}
+
+input[type="submit"]:hover {
+    background-color: #CAF2D7;
+}
+
+input[type="file"] {
+    cursor: pointer;
+}
+
+textarea {
+    height: 80px; /* Mengurangi height */
+}
+
+.error,
+.success {
+    font-size: 12px; /* Mengurangi font-size */
+    margin-top: 3px; /* Mengurangi margin */
+}
+
+.back-btn {
+    background-color: #EF9595; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 8px 16px; /* Padding atas dan bawah 8px, kiri dan kanan 16px */
+    border: none; /* Tanpa border */
+    border-radius: 6px; /* Sudut bulat */
+    cursor: pointer; /* Kursor menunjukkan tautan */
+    font-size: 14px; /* Ukuran font */
+    transition: background-color 0.3s; /* Transisi warna latar belakang saat hover */
+    display: flex;
+    margin-left: 200px;
+}
+
+.back-btn:hover {
+    background-color: #FFE4C9; /* Warna latar belakang saat hover */
+}

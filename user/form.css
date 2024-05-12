@@ -1,0 +1,64 @@
+/* form.css */
+
+/* Gaya umum */
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #40F8FF;
+    backdrop-filter: blur(20px); /* Efek blur untuk transparansi */
+    background-color: #0C356A/* Warna latar belakang dengan transparansi */
+}
+
+h2 {
+    font-family: 'Sigmar One', cursive;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #279EFF;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    
+    width: calc(100% - 16px);
+    padding: 6px; /* Mengurangi padding */
+    margin-top: 4px; /* Mengurangi margin */
+    margin-bottom: 10px; /* Mengurangi margin */
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Mengurangi border-radius */
+    box-sizing: border-box;
+    font-size: 12px; /* Mengurangi font-size */
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Responsif */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}

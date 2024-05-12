@@ -1,0 +1,79 @@
+.background{
+    background-image: url("LandingBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    overflow: hidden;
+    height: 100vh; /* Tambahkan agar background mencakup seluruh tinggi layar */
+}
+
+/* Container styling */
+.container {
+    background-color: #0C356A;
+    border-radius: 15px;
+    width: 350px;
+    padding: 25px;
+    box-shadow: 0 1em 5em 0 rgba(46, 31, 250, 0.3);
+    margin: 25px auto; /* Mengatur margin atas dan bawah, dan secara otomatis menengahkan container */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Menengahkan konten secara horizontal */
+}
+
+/* Heading styling */
+
+.login{
+    font-family: "Kanit", sans-serif;   
+    margin: 0;
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #279EFF;
+}
+
+/* Input styling */
+.container input, .container select {
+    border-radius: 5px;
+    border: 1.5px solid rgba(0, 0, 0, 0.3); /* Perbaiki format border */
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Label styling */
+.container label {
+    margin-bottom: 5px;
+}
+
+/* Error message styling */
+.error-message {
+    font-family: "Kanit", sans-serif;
+    color: red;
+    margin-top: -10px; /* Atur margin atas agar lebih dekat dengan input */
+}
+
+/* Button styling */
+.submit-button {
+    margin-left: 80px;
+    padding: 12.5px 50px;
+    border-radius: 99px;
+    background-color: #6DC8F5;
+    color: black;
+    border: none;
+    cursor: pointer; /* Tambahkan pointer saat hover */
+    display: flex;
+    font-family: "Kanit", sans-serif;
+}
+
+.submit-button:hover {
+    background-color: #053d5e; /* Ubah warna background saat hover */
+}
+
+.sub-header{
+    font-family: "Kanit", sans-serif;
+    color: #279EFF;
+}

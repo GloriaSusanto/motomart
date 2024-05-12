@@ -1,0 +1,33 @@
+h2{
+    font-family:"Kanit", sans-serif;
+    color: #279EFF;
+    text-align: center;
+}
+
+.sub-header{
+    font-family: "Kanit", sans-serif;
+    color: #279EFF;
+}
+
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #40F8FF;
+    backdrop-filter: blur(20px); /* Efek blur untuk transparansi */
+    background-color: #0C356A/* Warna latar belakang dengan transparansi */
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

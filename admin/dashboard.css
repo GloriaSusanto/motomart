@@ -1,0 +1,64 @@
+/* Custom CSS */
+
+/* Body Padding */
+body {
+    padding-top: 70px; /* Mempertahankan konten di bawah navbar */
+}
+
+
+/* Navbar Styling */
+.navbar {
+    padding: 1rem 0;
+}
+
+/* Main Heading Styling */
+h1 {
+    text-align: center;
+    font-family: "Sigmar One", sans-serif;
+    
+}
+
+/* Navbar Item Styling */
+.nav-item {
+    margin-top: 70px;
+    margin-right: 10px;
+    font-family: "Kanit", sans-serif;
+}
+
+/* Navbar Link Styling */
+.nav-link {
+    color: #fff;
+}
+
+/* Navbar Active Link Styling */
+.nav-link.active {
+    color: #E2DFD0;
+}
+
+.btn{
+    background-color: #60A9A6;
+    color: #153448;
+    border-radius: 6px;
+    font-weight: 20px;
+    font-family: "Kanit", sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #CAF2D7;
+}
+
+.header{
+    background-color:#0C356A ;
+    margin-top: -95px;
+    height: 200px;
+}
+
+.my-4{
+    color: #279EFF;
+}
+
+th{
+    color: #FF8787;
+    font-family: "Kanit", sans-serif;
+}
