@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body class="background">
     <div class="container">
-        <p class="login">MotoMart</p>
+        <p class="login">Login</p>
 
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             <label class="sub-header" for="role">Pilih Peran</label>
