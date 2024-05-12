@@ -10,8 +10,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Buat koneksi ke database
     $servername = "localhost";
-    $username = "root";
-    $db_password = "12345"; // Ubah nama variabel dari $password menjadi $db_password
+    $username = "phpmyadmin";
+    $db_password = "glo07Joy15_31"; // Ubah nama variabel dari $password menjadi $db_password
     $dbname = "db_motor";
     $conn = new mysqli($servername, $username, $db_password, $dbname); // Gunakan $db_password untuk koneksi database
 

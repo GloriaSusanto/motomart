@@ -1,8 +1,8 @@
 <?php
 // Koneksi ke database
 $servername = "localhost";
-$username = "root";
-$password = "12345";
+$username = "phpmyadmin";
+$password = "glo07Joy15_31";
 $dbname = "db_motor";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
