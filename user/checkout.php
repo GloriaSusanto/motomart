@@ -76,7 +76,7 @@ if (isset($_SESSION['pembelian'])) {
             if ($conn->query($sql) === TRUE) {
                 $_SESSION['id_pembelian'] = $conn->insert_id;
                 echo "<br>";
-                echo "<p class='alert alert-success'>Pembelian berhasil disimpan. Silakan <a href='pembayaran.html'>melakukan pembayaran</a>.</p>";
+                echo "<div class='alert alert-success'>Pembelian berhasil disimpan. Silakan <a href='pembayaran.html'>melakukan pembayaran</a>.</div>";
             } else {
                 echo "<p class='alert alert-danger'>Error: " . $sql . "<br>" . $conn->error . "</p>";
             }
