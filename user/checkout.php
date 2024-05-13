@@ -78,8 +78,8 @@ if (isset($_SESSION['pembelian'])) {
                 echo "<br>";
                 echo "<div class='alert alert-success'>Pembelian berhasil disimpan. Silakan <a href='pembayaran.html'>melakukan pembayaran</a>.</div>";
             } else {
-                echo "<p class='alert alert-danger'>Error: " . $sql . "<br>" . $conn->error . "</p>";
-            }
+                echo "<p class='alert alert-danger'>Error saat menyimpan pembelian: " . $conn->error . "</p>";
+            }            
 
             // Hapus data pembelian dari sesi setelah disimpan ke database
             unset($_SESSION['pembelian']);
